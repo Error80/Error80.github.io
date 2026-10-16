@@ -19,3 +19,17 @@ ul {
     padding: 30px;
     border-radius: 20px;
 }
+
+h1 {
+    color: darkslategrey;
+    border-bottom: 10px dotted purple;
+}
+
+h2 {
+    font-style: italic;
+}
+
+a {
+    color: green;
+}
+
