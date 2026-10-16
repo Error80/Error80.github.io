@@ -12,3 +12,10 @@ body {
   margin-right: auto;
 
 }
+
+ul {
+    border: 5px solid purple;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
