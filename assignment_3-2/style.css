@@ -9,6 +9,12 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  font-family: "Arial", "Times New Roman";
+  font-size: 1.4rem;
+}
+
+h1, h2 {
+  font-family: "Century Gothic", "Arial", "Times New Roman";
 }
 
 /* Layout */
