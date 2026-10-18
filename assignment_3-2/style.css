@@ -17,6 +17,10 @@ h1, h2 {
   font-family: "Century Gothic", "Arial", "Times New Roman";
 }
 
+a {
+  color: #aa6666;
+}
+
 /* Layout */
 
 main {
@@ -38,4 +42,27 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* navigation */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a {
+  display: block;
+  line-height: 6rem;
+  font-family: "Century Gothic", "Arial", "Times New Roman";
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #aa6666;
+  text-transform: uppercase;
+  text-decoration: none;
 }
