@@ -1,3 +1,11 @@
+/* Fonts */
+
+/* Font: https://fonts.google.com/specimen/Bevan */
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+/* Font: https://fonts.google.com/specimen/Trykker */
+@import url('https://fonts.googleapis.com/css2?family=Trykker&display=swap');
+
 /* General setup */
 
 * {
@@ -9,12 +17,17 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
-  font-family: "Arial", "Times New Roman";
+  font-family: "Trykker", "Times New Roman", Times, serif;
   font-size: 1.4rem;
 }
 
+h1 {
+  text-align: center;
+}
+
 h1, h2 {
-  font-family: "Century Gothic", "Arial", "Times New Roman";
+  font-family: "Bevan", "Times New Roman", Times, serif;
+  font-weight: normal;
 }
 
 a {
@@ -30,7 +43,7 @@ main {
   padding: 20px 0;
 }
 
-/* header and footer */
+/* Header and Footer */
 
 header {
   border-bottom: 5px solid #aa6666;
@@ -44,7 +57,7 @@ footer p {
   text-align: center;
 }
 
-/* navigation */
+/* Navigation */
 
 nav ul {
   padding-left: 0;
@@ -58,9 +71,8 @@ nav li {
 nav li a {
   display: block;
   line-height: 6rem;
-  font-family: "Century Gothic", "Arial", "Times New Roman";
+  font-family: "Bevan", "Times New Roman", Times, serif;
   font-size: 125%;
-  font-weight: bold;
   text-align: center;
   border: 3px solid #aa6666;
   text-transform: uppercase;
