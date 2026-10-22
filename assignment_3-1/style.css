@@ -31,9 +31,14 @@ h2 {
 
 a {
     color: green;
+    text-decoration: none;
 }
 
 .job-title {
     color: darkslategray;
     font-weight: bold;
+}
+
+a:hover {
+    color: darkgreen;
 }
