@@ -30,8 +30,18 @@ h1, h2 {
   font-weight: normal;
 }
 
+p {
+  text-indent: 2rem;
+}
+
+/* Links */
+
 a {
   color: #aa6666;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* Layout */
